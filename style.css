@@ -4,16 +4,25 @@ body {
     padding: 0;
     overflow-y: scroll;
 }
-
+.VPN {
+    font-size: 24px;
+    margin-bottom:270px;
+    color: #ff6600;
+}
+h3 {
+    font-size: 24px;
+    margin-top:20px;
+    color: #ff6600;
+}
 header {
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
     background-image: url('image.png');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,18 +30,27 @@ header {
     color: #fff;
     text-align: center;
     z-index: 1;
+    margin-top: 80px;
 }
-
+.long{
+    margin-bottom: 120px;
+}
+.logo{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 1100px;
+    color: #ff000d;
+}
 nav ul {
     list-style: none;
     display :flex ;
     justify-content:space-between;
-    margin-left: 40px;
-    width: 1200px; 
+    margin-left: 240px;
+    width: 1000px; 
     padding-right: 40px;
 }
 .space {
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 nav li{
     
@@ -65,15 +83,12 @@ nav a:hover {
 
 h1 {
     font-size: 36px;
-     margin-bottom: 10px; 
+     margin-bottom: -20px; 
     color: #ff000d;
+    margin-top: 200px;
 }
 
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #ff6600;
-}
+
 
 .guarantee {
     font-size: 16px;
